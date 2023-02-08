@@ -6,7 +6,7 @@
 }
 
 .main-page {
-    background-image: url('assets/Main-page/1079171177-preview_PosterImage.png');
+    background-image: url('assets/Main-page/bg.svg'), url('assets/Main-page/1079171177-preview_PosterImage.png');
 }
 
 ul {
@@ -83,4 +83,38 @@ li {
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
+}
+
+.main-about {
+    width: 626px;
+    height: 310px;
+    margin-left: 128px;
+    margin-top: 106px;
+}
+
+.about-heading {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffffff;
+    max-width: 500px;
+}
+
+.about-body {
+    padding: 24px 0px 42px 0px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.about-btn {
+    padding: 12px 32px;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #E2495B;
+    color: #fbfbfb;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
