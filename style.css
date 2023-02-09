@@ -252,6 +252,7 @@ span {
 
 .page-three {
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .three-bg {
@@ -359,4 +360,68 @@ span {
 .know-more-btn {
     margin-top: 1.8rem;
     padding: 0.75rem 2rem;
+}
+
+/* ------------------  Page 4  --------------------- */
+
+.page-four {
+    display: flex;
+}
+
+.four-bg {
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    height: 417px;
+}
+
+.mask {
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 75px;
+    z-index: 0;
+    height: 6rem;
+}
+
+.mask img {
+    width: 90%;
+    
+}
+
+.four-container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+    min-width: 48rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-bottom: 2.25rem;
+    padding-top: 2.25rem;
+    margin: 80px;
+    margin-left: auto;
+}
+
+.four-header {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2rem;
+}
+
+.four-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    color: #5E5E5E;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.four-btn {
+    margin-top: 1.25rem;
 }
