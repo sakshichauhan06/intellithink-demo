@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1134.399" viewBox="0 0 1920 1134.399">
+<svg viewBox="0 0 1920 1134.399" height="1134.399" width="1920" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="linear-gradient" y1="0.176" x2="0.969" y2="0.664" gradientUnits="objectBoundingBox">
-      <stop offset="0"/>
-      <stop offset="1" stop-opacity="0"/>
+    <linearGradient gradientUnits="objectBoundingBox" y2="0.664" x2="0.969" y1="0.176" id="linear-gradient">
+      <stop offset="0"></stop>
+      <stop stop-opacity="0" offset="1"></stop>
     </linearGradient>
     <clipPath id="clip-path">
-      <path id="bg" d="M0,0H1920V769.66S1440.573,942.4,960.4,942.4,0,769.66,0,769.66Z" fill="url(#linear-gradient)"/>
+      <path fill="url(#linear-gradient)" d="M0,0H1920V769.66S1440.573,942.4,960.4,942.4,0,769.66,0,769.66Z" id="bg"></path>
     </clipPath>
   </defs>
-  <g id="bg-2" data-name="bg" transform="translate(0 0)">
-    <path id="bg-3" data-name="bg" d="M0,0H1920V769.66S1440.573,942.4,960.4,942.4,0,769.66,0,769.66Z" transform="translate(0 192)" fill="url(#linear-gradient)"/>
+  <g transform="translate(0 0)" data-name="bg" id="bg-2">
+    <path fill="url(#linear-gradient)" transform="translate(0 0)" d="M0,0H1920V769.66S1440.573,942.4,960.4,942.4,0,769.66,0,769.66Z" data-name="bg" id="bg-3"></path>
   </g>
 </svg>
