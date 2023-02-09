@@ -243,3 +243,98 @@ li {
     float: right;
     width: 70%;
 }
+
+/* ------------------  Page 3  --------------------- */
+
+.page-three {
+    margin-top: 5rem;
+}
+
+.three-bg {
+
+}
+
+.three-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* margin-left: 1.25rem;
+    margin-right: 1.25rem; */
+    margin-left: 105.2px;
+    margin-left: 105.2px;
+}
+
+.three-left {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem;
+}
+
+.cards {
+    padding: 1.5rem;
+    gap: 1.75rem;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    position: relativerelative;
+    text-align: center;
+    width: 296px;
+    height: auto;
+    box-shadow: -5px 5px 15px rgba(136, 135, 135, 0.3);
+}
+
+.cards-logo img {
+    height: 2.5rem;
+}
+
+.cards-header {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards hr {
+    width: 80px;
+    border: 1px solid #E2495B;
+    background: #E2495B;
+    border-radius: 1px;
+    align-items: center;
+    margin: auto;
+}
+
+.cards-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 0.5rem;
+}
+
+.cards-right-col {
+    margin-top: 2.5rem;
+}
+
+.cards-bottom {
+    margin-top: 1.75rem;
+}
+
+.three-right {
+
+}
+
+.three-right-header {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.three-right-para {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 2.5rem;
+}
