@@ -425,3 +425,49 @@ span {
 .four-btn {
     margin-top: 1.25rem;
 }
+
+
+/* dgjsl;dkgjl;ds */
+
+.footer {
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    /* margin: 2.25rem;
+    position: relative; */
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hi;
+}
+
+.footer-logo {
+    margin-right: auto;
+    display: grid;
+    grid-column-start: span 2;
+}
+
+.footer-item {
+    margin-top: 2.5rem;
+}
+
+.footer-header {
+
+}
+
+.footer-list {
+
+}
+
+.footer-list, a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
