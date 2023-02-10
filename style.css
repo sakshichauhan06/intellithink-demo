@@ -6,22 +6,72 @@
     /* font-family: 'Sora', sans-serif; */
 }
 
+.main-top {
+    z-index: 10;
+}
+
 .main-page {
     width: 100%;
     height: 100vh;
-    background-image: url('assets/Main-page/bg.svg'), url('assets/Main-page/1079171177-preview_PosterImage.png');
+    /* background-image: url('assets/Main-page/bg.svg'), url('assets/Main-page/1079171177-preview_PosterImage.png');
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: inherit; */
 }
 
-.back-vid {
+/* .video-bg {
+    background-image: url('assets/Main-page/bg.svg');
+    background-position: top;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
     z-index: 0;
+    min-width: 100%;
+    max-height: 100%;
+} */
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/Main-page/bg.svg') no-repeat center center/cover;
+    /* min-width: 100%;
+    max-height: 100%; */
 }
 
-@media (min-aspect-ration: 16/9) {
+.video-container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('assets/Main-page/bg.svg');
+
+}
+
+video {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* @media (min-aspect-ration: 16/9) {
     .back-vid {
         width: 100%;
         height: auto;
@@ -33,7 +83,7 @@
         width: 100%;
         height: auto;
     }
-}
+} */
 
 ul {
     list-style-type: none;
@@ -172,7 +222,16 @@ li {
 
 .arrow {
     cursor: pointer;
+    color: #DA001A;
+    width: 8.42px;
+    height: 16.84;
 }
+
+.arrow img {
+    width: 100%;
+    height: auto;
+}
+
 
 /* -------------  Page 2  --------------------- */
 
@@ -436,7 +495,7 @@ span {
 }
 
 
-/* dgjsl;dkgjl;ds */
+/* ----------------- Footer ---------------- */
 
 .footer {
     padding-bottom: 2rem;
